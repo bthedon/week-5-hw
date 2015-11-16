@@ -5,6 +5,7 @@
    <%= f.input :name %>
    <%= f.input :content %>
    <%= f.input :featured_image %>
+   <%= f.association :categories, as: :check_boxes %>
   </div>
 
   <div class="form-actions">
