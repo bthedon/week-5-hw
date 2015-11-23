@@ -49,4 +49,5 @@ gem 'simple_form'
 gem 'devise'
 gem 'bootstrap-sass', '~> 3.3.5'
 gem 'friendly_id', '~> 5.1.0'
+gem "letter_opener", :group => :development
 
